@@ -1,6 +1,6 @@
 // config.js
 const config = {
-    API_URL: window.location.hostname === 'localhost' ? 'http://localhost:5050' : 'https://your-production-api-url.com',
+    API_URL: window.location.hostname === 'localhost' ? 'http://localhost:5050' : 'https://libraryofalexandria.duckdns.org/',
     AUTH_COOKIE_NAME: 'JWT',
     DEFAULT_BOOK_COVER: '/assets/default-book-cover.jpg',
     NOTIFICATION_DURATION: 5000,
